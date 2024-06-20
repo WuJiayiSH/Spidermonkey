@@ -61,7 +61,7 @@
     defined(__SH4__) || defined(__alpha__) || \
     defined(_MIPS_ARCH_MIPS32R2) || \
     defined(__AARCH64EL__) || \
-    defined(__arm64__)
+    defined(__arm64__) || (__EMSCRIPTEN__)
 #define DOUBLE_CONVERSION_CORRECT_DOUBLE_OPERATIONS 1
 #elif defined(_M_IX86) || defined(__i386__) || defined(__i386)
 #if defined(_WIN32)
